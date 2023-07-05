@@ -1,6 +1,7 @@
 <template>
 	<div id="app">
 		<tiptap v-model="content" />
+		<input type="text" v-model="content" />
 		<div class="content">
 			<h3>Content</h3>
 			<pre><code>{{ content }}</code></pre>
